@@ -1,0 +1,28 @@
+.workwithus {
+  flex: 1;
+  min-height: 300px;
+  z-index: 1;
+  background: #fff;
+  padding-top: 100px;
+}
+
+.workwithus__content {
+  margin-bottom: 30px;
+  @include container;
+}
+
+.workwithus__title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.workwithus__description {
+  line-height: 1.7;
+}
+
+.workwithus__service-content {
+  display: flex;
+  margin: 20px 0px;
+}

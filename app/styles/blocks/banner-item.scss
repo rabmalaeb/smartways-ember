@@ -1,0 +1,18 @@
+.banner-item {
+  background: url(/images/banner6.jpg);
+  background-size: cover;
+  height: 500px;
+  min-height: 500px;
+  transition: transform .8s ease-in-out;
+
+  &:after {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 73, 94, 0.75);
+  }
+}

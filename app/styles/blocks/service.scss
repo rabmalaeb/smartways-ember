@@ -1,0 +1,31 @@
+.service {
+  margin-right: 20px;
+  transition: box-shadow .4s;
+  cursor: pointer;
+}
+
+.service:hover {
+  box-shadow: 0 24px 24px 0 rgba(0,0,0,.15), 0 12px 12px 0 rgba(0,0,0,.06), 0 6px 6px 0 rgba(0,0,0,.06), 0 5px 5px 0 rgba(0,0,0,.04), 0 4px 4px 0 rgba(0,0,0,.02), 0 2px 2px 0 rgba(0,0,0,.02);
+}
+
+.service__image {
+  min-height: 150px;
+  min-height: 150px;
+  background: rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.service__name {
+  line-height: 1.7;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 0px 10px;
+}
+
+.service__description {
+  line-height: 1.7;
+  font-size: 14px;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}

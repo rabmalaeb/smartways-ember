@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main__header {
+  z-index: 9;
+}
+
+.main__banner {
+  z-index: 9;
+}
+
+.main__about-us {
+  z-index: 9;
+}
+
+.main__top-bar {
+  z-index: 9;
+}
+
+.main__services {
+  z-index: 9;
+}
+
+.main__workwithus{
+  z-index: 9;
+}
+
+.main__contact-us {
+  margin-bottom: 350px;
+  z-index: 9;
+}

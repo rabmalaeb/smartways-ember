@@ -1,0 +1,35 @@
+.contact-us {
+  flex: 1;
+  min-height: 300px;
+  z-index: 1;
+  background: #fff;
+  padding-top: 100px;
+}
+
+.contact-us__container {
+  margin-bottom: 30px;
+  @include container;
+}
+
+.contact-us__content{
+  flex: auto;
+  display: flex;
+}
+
+.contact-us__title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact-us__form-description {
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.contact-us__form {
+  margin: 20px 0px;
+  flex: 0.5;
+  margin-right: 100px;
+}
