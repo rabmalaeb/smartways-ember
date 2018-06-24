@@ -9,6 +9,9 @@ const Router = EmberRouter.extend({
 Router.map(function() {
   this.route('main', { path: '/' }, function() {
     this.route('about', { path: '/about-us' });
+    this.route('services', { path: '/services' });
+    this.route('work-with-us', { path: '/work-with-us' });
+    this.route('contact-us', { path: '/contact-us' });
   });
 });
 

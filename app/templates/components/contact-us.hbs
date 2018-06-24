@@ -8,11 +8,11 @@ $subjectList = array(
 $countries =  json_decode(file_get_contents("public/json/countries.json"), true);
 ?> -->
 <div class="contact-us__container">
-  <h2 class="contact-us__title">labelmenucontactus</h2>
+  <h2 class="contact-us__title">{{t "contact.title"}}</h2>
   <contact-us class="contact-us__content">
     <div class="contact-us__form">
       <div class="contact-us__form-description">
-        <p> labeldidyoulike </p>
+        <p> {{t "contact.description"}} </p>
       </div>
       <form class="form">
         <div class="form__section">

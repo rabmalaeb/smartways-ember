@@ -10,13 +10,12 @@
   cursor: pointer;
   transition: color .4s;
   font-size: 14px;
-  height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  &_is-selected {
+  &_is-active {
     border-bottom: 1px solid #000;
   }
 

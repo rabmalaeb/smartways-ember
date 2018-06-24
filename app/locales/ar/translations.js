@@ -1,11 +1,23 @@
 export default {
-  // "some.translation.key": "Text for some.translation.key",
-  //
-  // "a": {
-  //   "nested": {
-  //     "key": "Text for a.nested.key"
-  //   }
-  // },
-  //
-  // "key.with.interpolation": "Text with {{anInterpolation}}"
-};
+  general: {
+    english: 'العربية',
+  },
+
+  about: {
+    title: 'عن الشركة',
+  },
+
+  services: {
+    title: 'الخدمات',
+    description: 'نقوم بتصميم وتطبيق العلامات التجارية عالية المستوى والمنصات الرقمية من مكاتبنا في بيروت ، لبنان. تخصصاتنا الرئيسية هي مواقع الويب ، تطبيقات الويب ، تحسين محركات البحث (SEO) ، تطبيقات التجارة الإلكترونية وتطبيقات الجوال.',
+  },
+
+  workwithus: {
+    title: 'اعمل معنا',
+  },
+
+  contact: {
+    title: 'اتصل بنا',
+    description: 'هل أعجبك ما نقدمه؟ اسمحوا لنا أن نعرف من خلال ترك لنا رسالة'
+  },
+}
