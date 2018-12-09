@@ -18,12 +18,12 @@ export default Component.extend({
 
     if (this.get('section')) {
       $('html').animate({
-        scrollTop: $(`#${this.get('section')}`).offset().top
+        scrollTop: $(`#${this.get('section')}`).offset().top - 150
       }, 1000);
     }
 
     $(window).on(`scroll.${this.elementId}`, () => {
-      $('html').scrollTop() > 580 ? this.set('isHeaderFixed', true): this.set('isHeaderFixed', false);
+      $('html').scrollTop() > 33 ? this.set('isHeaderFixed', true): this.set('isHeaderFixed', false);
       });
   },
 
