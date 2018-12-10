@@ -17,7 +17,9 @@ $countries =  json_decode(file_get_contents("public/json/countries.json"), true)
       <form class="form">
         <div class="form__section">
           <div class="form-item">
-            <div class="form-item__label fas fa-user"></div>
+            <div class="form-item__label">
+               {{fa-icon "user"}}
+            </div>
             <div class="form-item__input">
               <input class="input-item" placeholder="Name" type="text" name="name" id="name">
             </div>
@@ -25,7 +27,9 @@ $countries =  json_decode(file_get_contents("public/json/countries.json"), true)
         </div>
         <div class="form__section">
           <div class="form-item">
-            <div class="form-item__label fas fa-at"></div>
+            <div class="form-item__label">
+               {{fa-icon "at"}}
+            </div>
             <div class="form-item__input">
               <input class="input-item" placeholder="Email" type="text" name="name" id="name">
             </div>
@@ -33,7 +37,9 @@ $countries =  json_decode(file_get_contents("public/json/countries.json"), true)
         </div>
         <div class="form__section">
           <div class="form-item">
-            <div class="form-item__label fas fa-phone"></div>
+            <div class="form-item__label">
+               {{fa-icon "phone"}}
+            </div>
             <div class="form-item__input">
               <input class="input-item" placeholder="Phone" type="text" name="name" id="name">
             </div>
@@ -41,7 +47,9 @@ $countries =  json_decode(file_get_contents("public/json/countries.json"), true)
         </div>
         <div class="form__section">
           <div class="form-item">
-            <div class="form-item__label far fa-address-card"></div>
+            <div class="form-item__label">
+               {{fa-icon "address-card"}}
+            </div>
             <div class="form-item__input">
               <select class="input-item input-item_is-select" placeholder="Subject" >
                 <option value=""></option>
@@ -52,7 +60,9 @@ $countries =  json_decode(file_get_contents("public/json/countries.json"), true)
             </div>
           </div>
           <div class="form-item">
-            <div class="form-item__label fas fa-globe"></div>
+            <div class="form-item__label">
+               {{fa-icon "globe"}}
+            </div>
             <div class="form-item__input">
               <select class="input-item input-item_is-select" placeholder="Subject" >
                 <option value=""></option>
@@ -65,7 +75,9 @@ $countries =  json_decode(file_get_contents("public/json/countries.json"), true)
         </div>
         <div class="form__section">
           <div class="form-item">
-            <div class="form-item__label fas fa-envelope"></div>
+            <div class="form-item__label">
+               {{fa-icon "envelope"}}
+            </div>
             <div class="form-item__input">
               <textarea class="input-item input-item_is-textarea" placeholder="Message" type="text" name="name" id="name"></textarea>
             </div>
