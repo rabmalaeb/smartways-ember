@@ -4,7 +4,7 @@ import $ from 'jquery';
 
 export default Component.extend({
   classNames: ['main'],
-  classNameBindings: ['isHeaderFixed:main_header-fixed', 'isRightToLeft:main_direction-rtl'],
+  classNameBindings: ['isHeaderFixed:main_header-fixed', 'isArabic:main_is-arabic'],
   isHeaderFixed: false,
   i18n: service(),
 
@@ -14,7 +14,7 @@ export default Component.extend({
    */
   didInsertElement() {
     this._super(...arguments);
-    this.get('i18n').locale === 'en' ? this.set('isRightToLeft', false) : this.set('isRightToLeft', true);
+    this.get('i18n').locale === 'en' ? this.set('isArabic', false) : this.set('isArabic', true);
 
     if (this.get('section')) {
       $('html').animate({
@@ -40,10 +40,10 @@ export default Component.extend({
     changeLanguage() {
       if (this.get('i18n').locale === 'en') {
         this.get('i18n').set('locale', 'ar');
-        this.set('isRightToLeft', true);
+        this.set('isArabic', true);
       } else {
         this.get('i18n').set('locale', 'en'); 
-        this.set('isRightToLeft', false);
+        this.set('isArabic', false);
       }
     }
   }
