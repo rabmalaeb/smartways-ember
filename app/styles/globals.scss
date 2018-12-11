@@ -1,0 +1,24 @@
+$mq-breakpoints: (
+  mobile: 266px,
+  mobile-plus: 390px,
+  tablet: 740px,
+  tablet-plus: 950px,
+  desktop: 980px,
+  wide: 1300px
+);
+
+$global--padding: 20px;
+$global--max-width: 950px;
+$global--slider-width: 400px;
+
+$global--primary-color: #D31A67;
+$global--primary-color-hover: #e95090;
+$global--error-color: #d11764;
+
+$global--primary-text-color: #E03592;
+
+$global--secondary-color: #202122;
+$global--secondary-color-hover: #313132;
+
+$global--font-color: #727278;
+$global--font-color-disabled: #c6c3c3;

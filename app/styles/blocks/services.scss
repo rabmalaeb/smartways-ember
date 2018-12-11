@@ -24,9 +24,10 @@
 
 .services__service-content {
   display: flex;
+  flex-wrap: wrap;
   margin: 20px 0px;
 
-  // @include mq ($until: tablet) {
-  //   flex-direction: column;
-  // }
+  @include mq ($until: tablet) {
+    flex-direction: column;
+  }
 }

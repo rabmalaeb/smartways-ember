@@ -1,6 +1,10 @@
 .nav-bar {
   display: flex;
   height: 100%;
+
+  @include mq($until: tablet) {
+    display: none;
+  }
 }
 
 .nav-bar__link {

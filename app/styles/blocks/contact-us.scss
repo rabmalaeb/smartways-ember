@@ -14,6 +14,10 @@
 .contact-us__content{
   flex: auto;
   display: flex;
+
+  @include mq($until: tablet) {
+    flex-direction: column;
+  }
 }
 
 .contact-us__title {
@@ -32,4 +36,8 @@
   margin: 20px 0px;
   flex: 0.5;
   margin-right: 100px;
+
+  @include mq($until: tablet) {
+    margin-right: 0px;
+  }
 }

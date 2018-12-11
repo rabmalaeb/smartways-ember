@@ -19,6 +19,10 @@
   display: flex;
   margin-bottom: 30px;
   padding-top: 40px;
+
+  @include mq($until: tablet) {
+    padding-top: 0px;
+  }
 }
 
 .footer__column {
@@ -27,6 +31,11 @@
   margin-right: 20px;
   min-width: 300px;
   width: 300px;
+
+  @include mq($until: tablet) {
+    min-width: auto;
+    width: auto;
+  }
 }
 
 .footer__column-title {
